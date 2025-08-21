@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\AdminMainController;
+
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -12,14 +12,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified','rolemanager:customer'])->name('dashboard');
 
-// Grupos de rotas admin
-Route::middleware(['auth', 'verified', 'rolemanager:admin'])->group(function () {
-    //Grupo por controller
-    Route::controller(AdminMainController::class)->prefix('admin')->name('admin.')->group(function(){
-        Route::get('dashboard','index')->name('dashboard');
-    });
 
-});
 // Route::middleware(['auth', 'verified', 'rolemanager:admin'])->prefix('admin')->name('admin.')->group(function () {
 
 //     Route::get('dashboard', [App\Http\Controllers\Admin\AdminMainController::class,'index'])->name('dashboard');
@@ -38,3 +31,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+require __DIR__.'/admin.php';
