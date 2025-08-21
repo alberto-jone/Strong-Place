@@ -1,0 +1,47 @@
+Adições e Funcionalidades
+feat: Usado para novas funcionalidades.
+
+Exemplo: feat: Adicionar autenticação de usuário com Google
+
+Correções e Melhorias
+fix: Usado para corrigir um bug.
+
+Exemplo: fix: Corrigir erro de cálculo na página do carrinho
+
+refactor: Usado para refatoração de código, ou seja, mudanças que não alteram a funcionalidade, mas melhoram a estrutura ou o design.
+
+Exemplo: refactor: Mudar estrutura de diretórios para seguir padrão MVC
+
+perf: Usado para melhorias de performance.
+
+Exemplo: perf: Otimizar query do banco de dados para a busca de produtos
+
+Tarefas e Manutenção
+docs: Usado para mudanças na documentação.
+
+Exemplo: docs: Atualizar README.md com instruções de instalação
+
+style: Usado para mudanças de estilo que não afetam a lógica do código (formatação, espaços, ponto e vírgula, etc.).
+
+Exemplo: style: Adicionar ponto e vírgula no final das declarações
+
+test: Usado para adicionar ou corrigir testes.
+
+Exemplo: test: Adicionar testes unitários para a função de login
+
+chore: Usado para outras mudanças que não se encaixam nas categorias acima, como atualizações de dependências ou tarefas de build.
+
+Exemplo: chore: Atualizar dependência do Laravel para a versão 11.0
+
+Outros
+build: Mudanças que afetam o sistema de build ou dependências externas (ex: npm, composer).
+
+Exemplo: build: Adicionar script de build para o front-end
+
+ci: Mudanças nos arquivos de integração contínua (CI).
+
+Exemplo: ci: Configurar Travis CI para rodar testes automaticamente
+
+revert: Usado para reverter um commit anterior.
+
+Exemplo: revert: "feat: Adicionar nova funcionalidade de carrinho". A mensagem do commit a ser revertido é incluída.
