@@ -1,3 +1,5 @@
-<div>
-    <!-- I begin to speak only when I am certain what I will say is not better left unsaid. - Cato the Younger -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_page_title', 'Gestão de Atributos do Produto')
+@section('admin_layout')
+    <h2>Gerir atributo do produto</h2>
+@endsection

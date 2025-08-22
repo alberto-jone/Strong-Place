@@ -1,3 +1,4 @@
-<div>
-    <!-- It always seems impossible until it is done. - Nelson Mandela -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_layout')
+    <h2>Página de gestão descontos</h2>
+@endsection

@@ -1,3 +1,5 @@
-<div>
-    <!-- The best way to take care of the future is to take care of the present moment. - Thich Nhat Hanh -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_page_title', 'Gestão de Usuários')
+@section('admin_layout')
+    <h2>Página de gestão de usuários</h2>
+@endsection

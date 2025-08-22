@@ -1,3 +1,4 @@
-<div>
-    <!-- Order your soul. Reduce your wants. - Augustine -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_layout')
+    <h2>Vendas</h2>
+@endsection

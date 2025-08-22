@@ -1,3 +1,5 @@
-<div>
-    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_page_title', 'Avaliação de produtos')
+@section('admin_layout')
+    <h2>Gerir avaliação de produtos</h2>
+@endsection

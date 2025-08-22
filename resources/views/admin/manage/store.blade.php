@@ -1,3 +1,5 @@
-<div>
-    <!-- The only way to do great work is to love what you do. - Steve Jobs -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_page_title', 'Gestão de Lojas')
+@section('admin_layout')
+    <h2>Gerir página de lojas</h2>
+@endsection

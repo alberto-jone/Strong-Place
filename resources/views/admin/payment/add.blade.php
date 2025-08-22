@@ -1,3 +1,5 @@
-<div>
-    <!-- Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. - Marie Curie -->
-</div>
+@extends('admin.layouts.layout')
+@section('admin_page_title', 'Adicionar Pagamentos')
+@section('admin_layout')
+    <h2>Adicionar Pagamentos</h2>
+@endsection
