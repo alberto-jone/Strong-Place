@@ -153,8 +153,8 @@
             </a>
 
             <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span
-                    class="text-dark">Charles Hall</span>
+                <img src="{{ asset('admin_assets/img/avatars/avatar.jpg') }}" class="avatar img-fluid rounded me-1" alt="" /> <span
+                    class="text-dark">{{ Auth::user()->name }}</span>
             </a>
             <div class="dropdown-menu dropdown-menu-end">
                 <a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i>
@@ -167,7 +167,16 @@
                 <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help
                     Center</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Log out</a>
+                <a class="dropdown-item" href="{{ route('logout') }}">Log out</a>
+                {{-- <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <x-responsive-nav-link :href="route('logout')"
+                            onclick="event.preventDefault();
+                                        this.closest('form').submit();">
+                        {{ __('Log Out') }}
+                    </x-responsive-nav-link>
+                </form> --}}
             </div>
         </li>
     </ul>

@@ -25,3 +25,5 @@ Criação de views
 ===========================================
 Estou usando o icon do feather
 
+Parei na aula 7. Não terminei (parei no tempo 00:12:10)
+
